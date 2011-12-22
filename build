@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+puts "Updating bundles"
+
+bundles_dir = File.join(File.dirname(__FILE__), "bundle")
+FileUtils.cd(bundles_dir)
+
+# xmledit for other filetypes
+xmledit_filetypes = ["ant", "html", "jsp", "php", "sgml", "xhtml"]
+
+puts "  Xmledit for other filetypes"
+xmledit_filetypes.each do |filetype|
+  target = File.expand_path("./xmledit/ftplugin/#{filetype}.vim")
+  if not File.exist? target
+    FileUtils.ln_s(File.expand_path("./xmledit/ftplugin/xml.vim"), target)
+  end
+end
+
+# Build command-t
+puts "  Building command-t"
+FileUtils.cd("command-t")
+`rake make`
