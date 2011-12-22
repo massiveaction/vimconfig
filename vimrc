@@ -72,6 +72,7 @@ set softtabstop=4
 set tabstop=4
 set textwidth=80
 set number
+set ruler
 set incsearch
 set sessionoptions=blank,buffers,curdir,folds,globals,help,localoptions,options,resize,tabpages,winsize,winpos
 
