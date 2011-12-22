@@ -84,6 +84,12 @@ colorscheme desert
 " <Esc> mapping
 imap jk <Esc>
 
+" Leader key
+let os = substitute(system('uname'), "\n", "", "")
+if os == "Darwin"
+    let mapleader = ","
+endif
+
 " Remove trailing whitespace
 nnoremap <Leader>rs :%s/\s\+$//g<CR>
 
