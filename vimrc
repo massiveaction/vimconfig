@@ -79,13 +79,16 @@ set sessionoptions=blank,buffers,curdir,folds,globals,help,localoptions,options,
 set wildmenu
 set wildmode=longest:full
 
-colorscheme default
-" colorscheme anotherdark
+colorscheme desert
 
 " <Esc> mapping
 imap jk <Esc>
 
 " Remove trailing whitespace
 nnoremap <Leader>rs :%s/\s\+$//g<CR>
+
+" Different indentations
+nnoremap 2sp :set sw=2 sts=2 ts=2<CR>
+nnoremap 4sp :set sw=4 sts=4 ts=4<CR>
 
 " ~/.vimrc ends here
