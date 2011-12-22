@@ -79,6 +79,9 @@ set sessionoptions=blank,buffers,curdir,folds,globals,help,localoptions,options,
 set wildmenu
 set wildmode=longest:full
 
+" Keep a longer history
+set history=1000
+
 colorscheme desert
 
 " <Esc> mapping
