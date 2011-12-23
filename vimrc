@@ -98,7 +98,11 @@ endif
 nnoremap <Leader>rs :%s/\s\+$//g<CR>
 
 " Different indentations
-nnoremap 2sp :set sw=2 sts=2 ts=2<CR>
-nnoremap 4sp :set sw=4 sts=4 ts=4<CR>
+nnoremap <Leader>2s :set sw=2 sts=2 ts=2<CR>
+nnoremap <Leader>4s :set sw=4 sts=4 ts=4<CR>
+
+" Settings for VimClojure
+let vimclojure#HighlightBuiltins = 1
+let vimclojure#ParenRainbow = 1
 
 " ~/.vimrc ends here
