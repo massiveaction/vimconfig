@@ -105,4 +105,7 @@ nnoremap <Leader>4s :set sw=4 sts=4 ts=4<CR>
 let vimclojure#HighlightBuiltins = 1
 let vimclojure#ParenRainbow = 1
 
+" eclim
+let g:EclimXmlValidate=0
+
 " ~/.vimrc ends here
