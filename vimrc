@@ -107,5 +107,6 @@ let vimclojure#ParenRainbow = 1
 
 " eclim
 let g:EclimXmlValidate=0
+let g:EclimLoggingDisabled=1
 
 " ~/.vimrc ends here
