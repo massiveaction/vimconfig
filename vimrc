@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 "
 " github repos
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'JuliaLang/julia-vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kevinw/pyflakes-vim'
 " Bundle 'mattn/gist-vim'

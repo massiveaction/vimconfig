@@ -41,6 +41,7 @@ git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
     * Erlang: vimerl
     * Git: git-vim
     * JavaScript: jquery, vim-javascript
+    * Julia: julia-vim
     * Python: django-vim, pyflakes, snipmate-django
     * Ruby: vim-rails, vim-ruby, vim-ruby-debugger, vim-rvm
     * Scala: vim-scala
